@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <title>くじーくん</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <div class="background_in">
+        <div class="top-area">
+            <img src="icon.png" alt="title" title="くじ引きバンド">
+            <p>参加メンバーの名前を入力してください。</p>
+            <p>ボタンをクリックするとバンドメンバー決めを開始します。^^</p>
+        </div>
+        <div class=input-area>
+            <input type="text" id="member" placeholder="参加メンバー" />
+            <button id="add-member">参加する</button>
+        </div>
+        <div class="result-area">
+            <p class="members">現在参加しているメンバー</p>
+            <ul id="add-list"></ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.top-area {
+    text-align: center;
+    font-size: small;
+}
+
+.input-area {
+    text-align: center;
+    font-size: small;
+}
+
+.result-area {
+    text-align: center;
+    font-size: small;
+}
+
+.background_in {
+    background-color: rgb(200, 250, 250);
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
